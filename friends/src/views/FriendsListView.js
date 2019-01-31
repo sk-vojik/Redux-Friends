@@ -13,7 +13,8 @@ class FriendsListView extends React.Component {
   render() {
     console.log(this.props)
     return (
-      <div>
+      <div className="friends-container">
+        <h2>Friends!</h2>
         <FriendsList friends={this.props.friends} />
       </div>
     )

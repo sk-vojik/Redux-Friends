@@ -5,11 +5,11 @@ import Friend from './Friend'
 const FriendsList = props => {
   console.log(props)
   return (
-    <ul>
+    <div className="friends-list">
       {props.friends.map(friend => {
         return <Friend key={friend.name} friend={friend} />;
       })}
-    </ul>
+    </div>
   )
 }
 

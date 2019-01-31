@@ -2,7 +2,7 @@ import React from "react";
 
 function Form(props) {
   return(
-    <div>
+    <div className="form-container">
       <h2>Add a Friend!</h2>
       <form>
 

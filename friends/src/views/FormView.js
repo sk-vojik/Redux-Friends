@@ -32,11 +32,13 @@ class FormView extends React.Component {
 
   render() {
     return (
-      <Form 
-        addNewFriend={this.addNewFriend}
-        changeHandler={this.changeHandler}
-        friend={this.state.friend}
-      />
+      <div className="form">
+        <Form 
+          addNewFriend={this.addNewFriend}
+          changeHandler={this.changeHandler}
+          friend={this.state.friend}
+        />
+      </div>
     )
   }
 }
