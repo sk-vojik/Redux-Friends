@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 
 import { getFriends } from '../actions'
 import FriendsList from '../components/FriendsList'
+import Form from '../components/Form'
 
 class FriendsListView extends React.Component {
   componentDidMount() {
