@@ -1,13 +1,10 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+
+import FriendsListView from "./views/FriendsListView";
 
 class App extends Component {
   render() {
-    return (
-      <div className="App">
-        <h1>hello world</h1>
-      </div>
-    );
+    return <FriendsListView />;
   }
 }
 
