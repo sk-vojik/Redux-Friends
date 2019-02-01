@@ -4,7 +4,7 @@ function Form(props) {
   return(
     <div className="form-container">
       <h2>Add a Friend!</h2>
-      <form>
+      <form autocomplete="off">
 
         <input 
           type="text"
@@ -12,6 +12,7 @@ function Form(props) {
           onChange={props.changeHandler}
           placeholder="name"
           value={props.friend.name}
+          autocomplete="off"
         />
 
         <input 
@@ -20,6 +21,7 @@ function Form(props) {
           onChange={props.changeHandler}
           placeholder="Age"
           value={props.friend.age}
+          autocomplete="off"
         />
 
         <input 
@@ -28,6 +30,7 @@ function Form(props) {
           onChange={props.changeHandler}
           placeholder="Email"
           value={props.friend.email}
+          autocomplete="off"
         />
 
         <button onClick={props.addNewFriend}>Add Friend</button>
